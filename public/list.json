@@ -1,32 +1,32 @@
 [
   {
-    "name": "老大",
-    "cover": "images/cat001.jpg",
+    "name": "開心果",
+    "cover": "images/dog1.jpeg",
     "price": 20
   },
   {
-    "name": "貝貝",
-    "cover": "images/cat002.jpg",
+    "name": "大美人",
+    "cover": "images/dog2.jpeg",
     "price": 15
   },
   {
-    "name": "老虎",
-    "cover": "images/cat003.jpg",
+    "name": "愛笑白",
+    "cover": "images/dog3.jpeg",
     "price": 10
   },
   {
-    "name": "胖胖",
-    "cover": "images/cat004.jpg",
+    "name": "乖乖女",
+    "cover": "images/dog4.jpeg",
     "price": 8.5
   },
   {
-    "name": "小花",
-    "cover": "images/cat005.jpg",
+    "name": "搗蛋鬼",
+    "cover": "images/dog5.jpeg",
     "price": 9.99
   },
   {
-    "name": "黑臉",
-    "cover": "images/cat006.jpg",
+    "name": "軟趴趴",
+    "cover": "images/dog6.jpeg",
     "price": 12.5
   }
 ]

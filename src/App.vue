@@ -71,19 +71,10 @@ const delet = (item) => {
 <template>
   <main>
     <header>
-      <nav class="bg-light navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid px-5">
-          <h1 class="navbar-brand fs-3 h1 text-danger" href="/"><i class="fas fa-gem"></i>貓咪讓我發大財商店</h1>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="m-0 navbar-nav">
-              <li class="nav-item inline">
-                <a class="p-4 no-underline inline-block nav-link active hover:(bg-gray-300)" href="#">商品</a>
-              </li>
-              <li class="nav-item inline">
-                <a class="p-4 no-underline inline-block nav-link hover:(bg-gray-300)" href="#">當日特價</a>
-              </li>
-            </ul>
-          </div>
+      <nav class="bg-light ">
+        <div class="pt-3">
+          <h1 class="navbar-brand fs-3 h1 text-danger text-center" href="/"><i class="fas fa-gem"></i>狗狗讓我發大財商店</h1>
+          <p class="discount-text text-center">全店滿三件打八折，超過三件以價高前三折扣</p>
         </div>
       </nav>
     </header>
@@ -91,11 +82,11 @@ const delet = (item) => {
       <div class="row items">
         <section class="col-sm-2" v-for="item in list" :key="item">
           <div class="card">
-            <img :src="item.cover" class="card-img-top" alt="">
+            <img :src="item.cover" class="cart-img card-img-top" alt="">
             <div class="card-body">
-              <h2 class="card-title fw-light fs-6">{{ item.name }}</h2>
+              <h2 class="card-title fw-light fs-4">{{ item.name }}</h2>
               <p class="price">${{ item.price}}</p>
-              <button class="btn btn-sm btn-outline-warning " @click="addToCart(item)"><i class="fas fa-cat"></i></button>
+              <button class="btn btn-sm btn-outline-warning " @click="addToCart(item)"><i class="fa-solid fa-paw"></i></button>
             </div>
           </div>
         </section>

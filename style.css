@@ -4,3 +4,22 @@ table{
 th,td{
   width: 20%;
 }
+.cart-img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover
+}
+.discount-text{
+  animation: bigger 3s infinite linear;
+}
+nav{
+  height: 90px;
+}
+@keyframes  bigger{
+  0%{font-size:1em}
+  25%{font-size:1.25em}
+  50%{font-size:1.5em}
+  75%{font-size:1.25em}
+  100%{font-size:1em}
+
+}
