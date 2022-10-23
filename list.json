@@ -1,0 +1,32 @@
+[
+  {
+    "name": "開心果",
+    "cover": "images/dog1.jpeg",
+    "price": 20
+  },
+  {
+    "name": "大美人",
+    "cover": "images/dog2.jpeg",
+    "price": 15
+  },
+  {
+    "name": "愛笑白",
+    "cover": "images/dog3.jpeg",
+    "price": 10
+  },
+  {
+    "name": "乖乖女",
+    "cover": "images/dog4.jpeg",
+    "price": 8.5
+  },
+  {
+    "name": "搗蛋鬼",
+    "cover": "images/dog5.jpeg",
+    "price": 9.99
+  },
+  {
+    "name": "軟趴趴",
+    "cover": "images/dog6.jpeg",
+    "price": 12.5
+  }
+]
