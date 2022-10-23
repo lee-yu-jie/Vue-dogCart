@@ -15,11 +15,23 @@ th,td{
 nav{
   height: 90px;
 }
+
+@media screen and (min-width: 540px) {
+  .discount-text{
+    animation: lg-bigger 3s infinite linear;
+  }
+}
 @keyframes  bigger{
+  0%{font-size:.75em}
+  25%{font-size:.9em}
+  50%{font-size:1.1em}
+  75%{font-size:.9em}
+  100%{font-size:.75em}
+}
+@keyframes  lg-bigger{
   0%{font-size:1em}
   25%{font-size:1.25em}
   50%{font-size:1.5em}
   75%{font-size:1.25em}
   100%{font-size:1em}
-
 }

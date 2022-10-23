@@ -59,7 +59,6 @@ const getSum = computed(() => {
   return Math.round(result * 100) / 100
 })
 
-
 const delet = (item) => {
   const index = cart.value.findIndex( data => data.name === item.name)
   if(index >= 0){
@@ -80,7 +79,7 @@ const delet = (item) => {
     </header>
     <section class="container mt-4">
       <div class="row items">
-        <section class="col-sm-2" v-for="item in list" :key="item">
+        <section class=" col-6 col-md-4 col-lg-2 mb-3" v-for="item in list" :key="item">
           <div class="card">
             <img :src="item.cover" class="cart-img card-img-top" alt="">
             <div class="card-body">
@@ -107,7 +106,7 @@ const delet = (item) => {
           <tbody>
             <tr v-for="item in cart" :key="item">
               <td>{{item.name}}</td>
-              <td><input type="number" class="quantity" v-model="item.amount"/></td>
+              <td><input type="number" class="quantity w-100" v-model="item.amount"/></td>
               <td>${{item.price}}</td>
               <td>${{item.price * item.amount}}</td>
               <td>
